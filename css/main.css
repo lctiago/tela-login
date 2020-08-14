@@ -1,0 +1,49 @@
+body {
+    background: url("../img/fundo.jpg") top left;
+}
+
+#container {
+    text-align: center;
+}
+
+#area-login {
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+#area-login img {
+    margin-top: -64px;
+    margin-bottom: 30px;
+}
+
+#formulario-login input {
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#formulario-login input.submit {
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+}
+
+input.email {
+	background-image: url(../img/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(../img/icone-cadeado.png);
+}
